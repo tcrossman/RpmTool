@@ -18,7 +18,7 @@
 /*
  * LCD Pinout (LCD left to right increasing)
  * LCD------>1   2   3   4   5   6   7   8   9   10  11  12  13  14  15     16  
- * Arduino-->GND VCC GND 8   9   -   -   -   -   -   10  11  12  13  220ohm GND
+ * Arduino-->GND VCC GND 8   GND 9   -   -   -   -   10  11  12  13  220ohm GND
  */
 LiquidCrystal lcd(8, 9, 10, 11, 12, 13);  //Setup lcd display see arduino.cc/lcd
 
